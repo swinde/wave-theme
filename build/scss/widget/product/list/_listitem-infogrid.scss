@@ -36,7 +36,7 @@
 
     .boxwrapper & {
       border-bottom: 1px dashed $gray-300;
-      margin-bottom: $grid-gutter-width /2;
+      margin-bottom: calc($grid-gutter-width / 2);
 
       @include media-breakpoint-up(md){
         max-width: 275px;

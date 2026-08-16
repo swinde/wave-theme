@@ -133,8 +133,16 @@
             [{/if}]
         [{/block}]
 
+        [{*block name="base_style"}]
+            [{oxstyle include="css/styles.css"}]
+        [{/block*}]
         [{block name="base_style"}]
-            [{oxstyle include="css/styles.min.css"}]
+            [{if $oxcmp_shop->oxshops__oxproductive->value}]
+                [{oxstyle include="css/styles.min.css"}]
+            [{else}]
+                [{oxstyle include="css/styles.css"}]
+            [{/if}]
+                [{oxstyle include="css/photoswipe.css"}]
         [{/block}]
 
         [{block name="base_fonts"}]

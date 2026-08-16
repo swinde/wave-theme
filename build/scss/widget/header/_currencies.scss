@@ -17,7 +17,7 @@
 
       &-link {
         display: block;
-        padding: 3px $grid-gutter-width/2;
+        padding: 3px calc($grid-gutter-width / 2);
 
         .active &,
         .selected &,

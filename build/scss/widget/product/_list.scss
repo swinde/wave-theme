@@ -62,7 +62,7 @@
 
   &-link {
     display: block;
-    padding: 3px $grid-gutter-width/2;
+    padding: 3px calc($grid-gutter-width / 2);
 
     .active &,
     .selected &,
@@ -85,13 +85,13 @@
     right: 0;
 
     .infogrid-view & {
-      left: $grid-gutter-width/2;
+      left: calc($grid-gutter-width / 2);
     }
   }
 }
 
 .variant-dropdown {
-  margin-top: $grid-gutter-width/2;
+  margin-top: calc($grid-gutter-width / 2);
 
   .dropdown-menu {
     &-item {
@@ -109,7 +109,7 @@
 
     &-link {
       display: block;
-      padding: 0 $grid-gutter-width/2;
+      padding: 0 calc($grid-gutter-width / 2);
       text-decoration: none;
     }
   }

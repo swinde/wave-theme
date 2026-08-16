@@ -8,8 +8,8 @@
       border-top: 1px solid $ox-listfilter-border;
       border-bottom: 1px solid $ox-listfilter-border;
       background-color: $ox-listfilter-bg;
-      padding: 20px $grid-gutter-width / 2;
-      margin: $grid-gutter-width / 2 0 0 0;
+      padding: 20px calc($grid-gutter-width / 2);
+      margin: calc($grid-gutter-width / 2);
 
       .btn-group {
         width: 100%;
