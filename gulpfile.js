@@ -156,6 +156,7 @@ function buildProdCSS() {
                     'mixed-decls',
                     'color-functions',
                     'global-builtin',
+                    'slash-div',
                     'import',
                     'if-function',
                     'abs-percent'
